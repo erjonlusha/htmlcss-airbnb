@@ -8,34 +8,38 @@ div{
   height: 680px;
 }
 
-.roma, .napoli, .milano{background-size: cover;}
+.roma, .napoli, .milano{
+  background-size: cover;
+  background-position: center;
+  box-shadow: 5px 10px #888888;
+  margin: 20px;}
 
 .roma{
   background-color: red;
-  background-image: url('C:/Users/erion/Desktop/Boolean/Classe23/htmlcss-airbnb/assets/img/roma.jpg');
+  background-image: url('../img/roma.jpg');
 }
 
 .napoli{
   background-color: yellow;
-  background-image: url('C:/Users/erion/Desktop/Boolean/Classe23/htmlcss-airbnb/assets/img/napoli.jpg');
+  background-image: url('../img/napoli.jpg');
 }
 
 .milano{
   background-color: blue;
-  background-image: url('C:/Users/erion/Desktop/Boolean/Classe23/htmlcss-airbnb/assets/img/milano.jpg');
+  background-image: url('../img/milano.jpg');
 }
 .titolo{
-  color: white;
-  text-shadow: 4px 4px 8px #000000;
   position: absolute;
   top:50%;
   left: 50%;
-  transform: translate(-50% -50%);
-
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 4px 4px 8px #000000;
+  font-size: 100px;
 }
 
 .layover{
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
   height: 100%;
   width: 100%;
   position: relative;
