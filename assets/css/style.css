@@ -4,12 +4,14 @@
   font-family: 'Sansita Swashed', cursive;
 }
 .roma, .napoli, .milano{
-  width: 1200px;
-  height: 680px;
+  width: 300px;
+  height: 200px;
   background-size: cover;
   background-position: center;
   box-shadow: 5px 10px #888888;
   margin:  20px auto;
+  position: relative;
+  cursor: pointer;
 }
 
 .roma{
@@ -33,12 +35,16 @@
   transform: translate(-50%, -50%);
   color: white;
   text-shadow: 4px 4px 8px #000000;
-  font-size: 150px;
+  font-size: 50px;
 }
 
 .layover{
   background-color: rgba(0, 0, 0, 0.4);
   height: 100%;
   width: 100%;
-  position: relative;
+  position: absolute;
+}
+
+.box:hover .layover{
+  background: rgba(0, 0, 0, 0);
 }
